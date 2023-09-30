@@ -3,7 +3,6 @@ export default function getNeighborhoodsList() {
 
   const self = this;
   this.addNeighborhood = (newNeighborhood) => {
-	// Arrow function equivalent of add function
     self.sanFranciscoNeighborhoods.push(newNeighborhood);
     return self.sanFranciscoNeighborhoods;
   };
