@@ -1,4 +1,4 @@
-import ClassRoom from './0-classroom.js'; // Import the ClassRoom class
+import ClassRoom from './0-classroom.js';
 
 export default function initializeRooms() {
   const rooms = [
