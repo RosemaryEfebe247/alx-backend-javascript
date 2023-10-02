@@ -10,7 +10,7 @@ export default function getListStudents() {
   
   return ids.map((id, index) => ({
     id,
-    firstName: firstNames[index]
+    firstName: firstNames[index],
     location: locations[index]
   }))
 }
