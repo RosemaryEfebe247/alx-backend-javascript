@@ -15,6 +15,6 @@ describe("Math addition", function () {
   });
 
   it("Add two floats below .5 to nearest 1", function () {
-	 assert.notEqual(calculateNumber(1.5, 3.7), 6)
+	 assert.strictEqual(calculateNumber(1.5, 3.7), 6)
   });
 });
